@@ -1,0 +1,17 @@
+.first {
+color: green;
+background-color: lightgreen;
+padding:8px;
+}
+
+#second {
+color: orange;
+background-color: yellow;
+padding: 8px;
+}
+
+p {
+color: purple;
+background-color: lightgrey;
+padding: 8px;
+}
