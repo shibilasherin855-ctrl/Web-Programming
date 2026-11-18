@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Side Bar Example</title>
+<style>
+.sidenav{
+height: 100%;
+width: 160px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: green;
+padding-top: 20px;
+}
+.sidenav a {
+display: block;
+text-decoration: none;
+padding: 6px 8px 6px 16px;
+color: white;
+}
+.sidenav a:hover {
+color: red;
+}
+.main{
+margin-left: 160px;
+padding: 0px 10px;
+height: 2000px;
+}
+.content{
+display: none;
+}
+.content:target{
+display: block;
+}
+</style>
+</head>
+<body>
+<div class="sidenav">
+<a href="#about">About Us</a>
+<a href="#department">Departments</a>
+<a href="#vision">Vision & Mission</a>
+<a href="#contact"> Contact Us</a>
+</div>
+<div class="main">
+<div id="about" class="content">
+<h1>About Us</h1>
+<p>
+MEA Engineering College is the first NAAC accredited self-financing engineering college in Malappuram district. The institution is affiliated to the APJ Abdul Kalam Technological University and approved by the AICTE.
+</p>
+</div>
+<div id="department" class="content">
+<h1>Department</h1>
+<p><h3>B.Tech Courses</h3>
+<ul>
+<li>Civil Engg</li>
+<li>CSE</li>
+<li>ECE</li>
+<li>EEE</li>
+<li>Mechanical Engg</li>
+<li>IT</li>
+<li>AI & DS</li>
+<li>Electrical & Computer Engg</li>
+<li>AI & ML</li>
+</ul>
+</p>
+</div>
+<div id="vision" class="content">
+<h1>Vision & Mission</h1>
+<p><h3>Our Vision</h3>
+To provide top class education to the community by achieving excellence in engineering education and mould world class engineers with competence, integrity and social commitment.
+<h3> Our Mission</h3>
+To provide the best faculty ,excellent infrastructure, commendable facilities for excellent academic ambiance to encourage research and development and to strengthen employability and campus placements.
+</p>
+</div>
+<div id="contact" class="content">
+<h1>Contact Us</h1>
+<p><h3>Address</h3>
+MEA Engineering College
+Vengoor p.O., Perinthalmanna
+Malappuram District
+Kerala- 679325<br>
+<h3>Phone</h3>
+04933 277558<br>
+
++91 8281987556<br>
+<h3>Email</h3>
+<a href="https://www.meaec.edu.in">meaec.edu.in</a><br>
+</p>
+</div>
+</body>
+</html>
+

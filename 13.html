@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulb ON and OFF</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+
+        .box {
+            background-color: black;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+        }
+
+        #bulb {
+            display: block;
+            margin: 20px auto;
+            width: 100px;
+        }
+
+        button {
+            padding: 10px 25px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>JAVASCRIPT BULB</h2>
+
+    <img id="bulb"
+         src="off1.png"
+         alt="Bulb">
+
+    <button onclick="bulbOn()">ON</button>
+    <button onclick="bulbOff()">OFF</button>
+
+</div>
+
+
+
+<script>
+
+
+    function bulbOn() {
+        document.getElementById("bulb").src = "on1.png";
+    }
+
+    function bulbOff() {
+        document.getElementById("bulb").src = "off1.png";
+    }
+ 
+</script>
+
+</body>
+</html>
+
